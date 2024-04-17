@@ -1,0 +1,28 @@
+#top {
+  width: 800px;
+  background: #dcc9f4;
+  margin: 20px auto;
+}
+
+.top-child {
+  margin-left: auto;
+  background: #ffd9df;
+  display: inline-block;
+}
+
+/* サンプルを中央に持ってくるには
+.top-child {
+  width: 20%;
+  background-color: #ffd9df;
+  margin: 0 auto;
+  display: block;
+}
+*/
+
+/* paddingとmargin両方指定する必要はあるのかな？
+#top {
+width: 800px;
+background: #dcc9f4;
+padding: 20px 0;
+margin: 20px auto 20px auto;
+} */
